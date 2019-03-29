@@ -1,20 +1,23 @@
 #!/usr/bin/python3
 
-import sys, os, time, traceback
-import re
-import shutil
-from threading import Thread
+#import sys
+import os
+#import time
+#import traceback
+#import re
+#import shutil
+#from threading import Thread
 
-from distutils.version import LooseVersion
+#from distutils.version import LooseVersion
 
 import wx
-import wx.adv
-import wx.lib.agw.aui as aui
+#import wx.adv
+#import wx.lib.agw.aui as aui
 import wx.html
-from wx.lib.msgpanel import MessagePanel
-from wx.adv import TaskBarIcon as TaskBarIcon
-from wx.adv import SplashScreen as SplashScreen
-import wx.lib.mixins.inspection
+#from wx.lib.msgpanel import MessagePanel
+#from wx.adv import TaskBarIcon as TaskBarIcon
+#from wx.adv import SplashScreen as SplashScreen
+#import wx.lib.mixins.inspection
 
 from sys import version
 
@@ -67,10 +70,10 @@ class frameMainAppWindow(wx.Frame):
         panel = wx.Panel(self)
         box = wx.BoxSizer(wx.VERTICAL)
         
-        m_text = wx.StaticText(panel, -1, "Hello World!")
-        m_text.SetFont(wx.Font(14, wx.SWISS, wx.NORMAL, wx.BOLD))
-        m_text.SetSize(m_text.GetBestSize())
-        box.Add(m_text, 0, wx.ALL, 10)
+        #m_text = wx.StaticText(panel, -1, "Hello World!")
+        #m_text.SetFont(wx.Font(14, wx.SWISS, wx.NORMAL, wx.BOLD))
+        #m_text.SetSize(m_text.GetBestSize())
+        #box.Add(m_text, 0, wx.ALL, 10)
         
         panel.SetSizer(box)
         panel.Layout()
